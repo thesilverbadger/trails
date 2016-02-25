@@ -56,6 +56,10 @@ namespace trails
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
+                    
+                //match any 404 to home/index
+                routes.MapRoute("spa-routes", "{*anything}", 
+                    new { controller = "Home", action = "Index"});
             });
         }
 

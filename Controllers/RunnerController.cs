@@ -29,7 +29,7 @@ namespace trails.Controllers
                 new Runner()
                 {
                     Id = 2,
-                    Firstname = "Julua",
+                    Firstname = "Julia",
                     Lastname = "Wire",
                     Age = 33,
                     FavouriteBeer = "Kirin Ichiban"
